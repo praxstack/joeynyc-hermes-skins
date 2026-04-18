@@ -1,0 +1,113 @@
+banner_hero: '[#5A5A5A]╔══════════════════════════════════════════╗[/]
+
+  ║[#C8102E]◎[/] [#AAAAAA]DEATH STAR · FIRING CONTROL[/] [#C8102E]◎[/]║
+
+  [#3A3A3A]╠══════════════════════════════════════════╣[/]
+
+  ║[#00A2FF]         ⌖  T  A  R  G  E  T            [/]║
+
+  ║[#00A2FF]       ╭──────┬──────╮               [/]║
+
+  ║[#00A2FF]       │      │      │               [/]║
+
+  ║[#00A2FF]       ├──────┼──────┤               [/]║
+
+  ║[#00A2FF]       │      │      │               [/]║
+
+  ║[#00A2FF]       ╰──────┴──────╯               [/]║
+
+  [#3A3A3A]╠══════════════════════════════════════════╣[/]
+
+  ║[#5A5A5A] ▓▓▓▓ [/][#C8102E]IMPERIAL COMMAND[/][#5A5A5A] ▓▓▓▓  [/]║
+
+  ║[#D2D0CE] ENGAGE · DEPLOY · DESTROY          [/]║
+
+  [#5A5A5A]╚══════════════════════════════════════════╝[/]
+
+  '
+banner_logo: "[bold #2A2A2A]███████╗███╗   ███╗██████╗ ██╗██████╗ ███████╗[/]\n[bold #2A2A2A]██╔════╝████╗ ████║██╔══██╗██║██╔══██╗██╔════╝[/]\n\
+  [bold #3D2020]█████╗  ██╔████╔██║██████╔╝██║██████╔╝█████╗  [/]\n[bold #5A1818]██╔══╝  ██║╚██╔╝██║██╔═══╝ ██║██╔══██╗██╔══╝\
+  \  [/]\n[bold #7A1414]███████╗██║ ╚═╝ ██║██║     ██║██║  ██║███████╗[/]\n[bold #9E1010]╚══════╝╚═╝     ╚═╝╚═╝     ╚═╝╚═╝\
+  \  ╚═╝╚══════╝[/]\n[bold #C8102E]                                              [/]\n           [bold #00A2FF]I M P E R I\
+  \ A L  N A V Y[/]\n"
+branding:
+  agent_name: Imperial Agent
+  goodbye: '[bold #AAAAAA]T[/][bold #AAA9A9]R[/][bold #AAA8A8]A[/][bold #AAA7A7]N[/][bold #ABA6A6]S[/][bold #ACA4A4]M[/][bold
+    #ACA2A2]I[/][bold #ADA0A0]S[/][bold #AE9E9E]S[/][bold #AF9C9C]I[/][bold #AF9A9A]O[/][bold #B09898]N[/] [bold #B19595]T[/][bold
+    #B29393]E[/][bold #B39090]R[/][bold #B48D8D]M[/][bold #B58A8A]I[/][#B78787]N[/][#B88484]A[/][#B98181]T[/][#BA7E7E]E[/][#BB7A7A]D[/]
+    [#BD7777]:[/][#BE7373]:[/] [#BF7070]L[/][#C16C6C]O[/][#C26969]N[/][#C46565]G[/] [#C56161]L[/][#C75D5D]I[/][#C85959]V[/][#CA5555]E[/]
+    [#CB5151]T[/][#CD4D4D]H[/][#CE4848]E[/] [#D04444]E[/][#D24040]M[/][#D33B3B]P[/][#D53737]I[/][#D73232]R[/][#D92E2E]E[/]'
+  help_header: ⌖ IMPERIAL DIRECTIVE - Available Commands
+  prompt_symbol: '◎ '
+  response_label: ' ◉ IMPERIAL COMMAND '
+  welcome: '[bold #AAAAAA]I[/][bold #AAA9A9]M[/][bold #AAA8A8]P[/][bold #AAA8A8]E[/][bold #ABA6A6]R[/][bold #ABA5A5]I[/][bold
+    #ACA4A4]A[/][bold #ACA2A2]L[/] [bold #ADA1A1]P[/][bold #AD9F9F]R[/][bold #AE9D9D]O[/][bold #AF9B9B]T[/][bold #B09A9A]O[/][bold
+    #B09797]C[/][bold #B19595]O[/][bold #B29393]L[/] [bold #B39191]A[/][bold #B48F8F]C[/][bold #B58C8C]T[/][bold #B68A8A]I[/][#B78787]V[/][#B88484]E[/]
+    [#B98282]:[/][#BA7F7F]:[/] [#BB7C7C]A[/][#BC7979]W[/][#BD7676]A[/][#BE7474]I[/][#BF7070]T[/][#C06D6D]I[/][#C16A6A]N[/][#C36767]G[/]
+    [#C46464]O[/][#C56161]R[/][#C65D5D]D[/][#C85A5A]E[/][#C95656]R[/][#CA5353]S[/][#CC4F4F],[/] [#CD4C4C]L[/][#CE4848]O[/][#D04444]R[/][#D14141]D[/]
+    [#D33D3D]V[/][#D43939]A[/][#D63535]D[/][#D73131]E[/][#D92E2E]R[/]'
+colors:
+  banner_accent: '#00A2FF'
+  banner_border: '#3A3A3A'
+  banner_dim: '#5A5A5A'
+  banner_text: '#D2D0CE'
+  banner_title: '#C8102E'
+  input_rule: '#3A3A3A'
+  prompt: '#D2D0CE'
+  response_border: '#C8102E'
+  session_border: '#2A2A2A'
+  session_label: '#6B6966'
+  ui_accent: '#C8102E'
+  ui_error: '#FF3030'
+  ui_label: '#00A2FF'
+  ui_ok: '#5A9A5A'
+  ui_warn: '#E35205'
+description: Galactic Empire v2. Canon red, Death Star firing control terminal, hologram blue accents.
+name: empire
+spinner:
+  thinking_faces:
+  - '[◎]'
+  - '[●]'
+  - '[◉]'
+  - '[○]'
+  - '[◎]'
+  thinking_verbs:
+  - SCANNING SECTOR
+  - TARGET LOCK
+  - HYPERSPACE CALC
+  - TRACTOR BEAM ENGAGED
+  - AWAITING ORDERS
+  - STANDING BY
+  - ACKNOWLEDGE
+  - IMPERIAL PROTOCOL
+  - DEPLOYING FORCES
+  waiting_faces:
+  - (■)
+  - (▪)
+  - (●)
+  - (◎)
+  - (●)
+  - (▪)
+  wings:
+  - - ⌖
+    - ⌖
+  - - ◎
+    - ◎
+  - - ⬡
+    - ⬡
+tool_emojis:
+  cronjob: ◐
+  memory: ◈
+  patch: ▪
+  read_file: ▓
+  search_files: ◎
+  skill_view: ▫
+  skills_list: ⬡
+  terminal: █
+  text_to_speech: ●
+  todo: □
+  vision_analyze: ◎
+  web_fetch: ◉
+  web_search: ⌖
+  write_file: ▒
+tool_prefix: │

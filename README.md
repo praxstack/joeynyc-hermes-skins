@@ -116,6 +116,13 @@ Telemate DOS BBS terminal revival (v4.2x era) — splash screen hero with menu b
 
 ![telemate](screenshots/telemate.png)
 
+#### Empire
+Galactic Empire v2 — Death Star firing control terminal hero with angular box-drawing console, targeting grid, hologram blue accents. Canon Imperial red `#C8102E`, ash gray, starfield black. Targeting reticle `◎ ` prompt, `IMPERIAL COMMAND` response label, military comms spinner verbs.
+
+→ [empire.yaml](skins/empire.yaml)
+
+![empire](screenshots/empire.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
