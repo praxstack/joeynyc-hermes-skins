@@ -102,6 +102,20 @@ Weyland-Yutani MU-TH-UR 6000 — amber CRT phosphor terminal fused with HAL 9000
 
 ![mother](screenshots/mother.png)
 
+#### DOS
+MS-DOS Norton Commander revival — dual-pane file manager hero with C:\ and D:\ directories, cyan borders, yellow F-key shortcut bar. EGA 16-color palette (cyan + bright white + yellow) on black, `C:\>` prompt, `F1 - HELP.COM` header.
+
+→ [dos.yaml](skins/dos.yaml)
+
+![dos](screenshots/dos.png)
+
+#### Telemate
+Telemate DOS BBS terminal revival (v4.2x era) — splash screen hero with menu bar, ATDT dial sequence, and iconic cyan status bar at bottom. Modem-era spinner verbs (DIALING, HANDSHAKE, CARRIER DETECT), `ATDT ` prompt, `CONNECT 57600` welcome, `NO CARRIER` goodbye.
+
+→ [telemate.yaml](skins/telemate.yaml)
+
+![telemate](screenshots/telemate.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
