@@ -53,6 +53,19 @@ colors:
   input_rule: '#3A3A3A'
   prompt: '#D2D0CE'
   response_border: '#C8102E'
+  status_bar_bg: "#202020"
+  status_bar_text: "#D2D0CE"
+  status_bar_strong: "#C8102E"
+  status_bar_dim: "#5A5A5A"
+  status_bar_good: "#5A9A5A"
+  status_bar_warn: "#E35205"
+  status_bar_bad: "#00A2FF"
+  status_bar_critical: "#FF3030"
+  voice_status_bg: "#202020"
+  completion_menu_bg: "#1B1B1B"
+  completion_menu_current_bg: "#265E7F"
+  completion_menu_meta_bg: "#262626"
+  completion_menu_meta_current_bg: "#4E4A6B"
   session_border: '#2A2A2A'
   session_label: '#6B6966'
   ui_accent: '#C8102E'

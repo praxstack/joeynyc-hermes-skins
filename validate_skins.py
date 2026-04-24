@@ -14,6 +14,12 @@ REQUIRED_COLORS = [
     "banner_border", "banner_title", "banner_accent", "banner_dim", "banner_text",
     "ui_accent", "ui_label", "ui_ok", "ui_error", "ui_warn",
     "prompt", "input_rule", "response_border", "session_label", "session_border",
+    # Added in v2026.4.23
+    "status_bar_bg", "status_bar_text", "status_bar_strong", "status_bar_dim",
+    "status_bar_good", "status_bar_warn", "status_bar_bad", "status_bar_critical",
+    "voice_status_bg",
+    "completion_menu_bg", "completion_menu_current_bg",
+    "completion_menu_meta_bg", "completion_menu_meta_current_bg",
 ]
 REQUIRED_SPINNER = ["waiting_faces", "thinking_faces", "thinking_verbs", "wings"]
 REQUIRED_BRANDING = ["agent_name", "welcome", "goodbye", "response_label", "prompt_symbol", "help_header"]

@@ -8,7 +8,7 @@ Complete reference for all configurable skin keys.
 name: myskin                    # Required. Must match filename.
 description: Short description  # Optional but recommended.
 
-colors: { ... }       # 15 color keys (hex strings)
+colors: { ... }       # 28 color keys (hex strings; all optional except name)
 spinner: { ... }      # 4 spinner keys (lists)
 branding: { ... }     # 6 branding keys (strings)
 tool_prefix: "┊"      # Single character prefixed to tool output lines
@@ -17,7 +17,7 @@ banner_logo: |        # Rich-markup ASCII art logo (replaces HERMES_AGENT banner
 banner_hero: |        # Rich-markup hero art (replaces caduceus art)
 ```
 
-## Colors (15 keys)
+## Colors (28 keys)
 
 | Key | What it colors | Default |
 |-----|----------------|---------|
@@ -27,15 +27,33 @@ banner_hero: |        # Rich-markup hero art (replaces caduceus art)
 | `banner_dim` | Muted text (separators, secondary labels) | `#B8860B` (dark goldenrod) |
 | `banner_text` | Body text (tool names, skill names) | `#FFF8DC` (cornsilk) |
 | `ui_accent` | General UI accent (highlights, active elements) | `#FFBF00` |
-| `ui_label` | UI labels and tags | `#4dd0e1` (teal) |
+| `ui_label` | UI labels and tags | `#DAA520` (goldenrod) |
 | `ui_ok` | Success indicators | `#4caf50` (green) |
 | `ui_error` | Error indicators | `#ef5350` (red) |
 | `ui_warn` | Warning indicators | `#ffa726` (orange) |
 | `prompt` | Interactive prompt text | `#FFF8DC` |
 | `input_rule` | Horizontal rule above input area | `#CD7F32` |
 | `response_border` | Response box border (ANSI escape) | `#FFD700` |
+| `status_bar_bg` | Prompt/TUI status bar background | `#1a1a2e` |
+| `status_bar_text` | Status bar default text | `#C0C0C0` |
+| `status_bar_strong` | Status bar highlighted text | `#FFD700` |
+| `status_bar_dim` | Status bar separators/muted text | `#8B8682` |
+| `status_bar_good` | Healthy context/status indicators | `#8FBC8F` |
+| `status_bar_warn` | Warning context/status indicators | `#FFD700` |
+| `status_bar_bad` | High-usage context/status indicators | `#FF8C00` |
+| `status_bar_critical` | Critical context/status indicators | `#FF6B6B` |
+| `voice_status_bg` | Voice status pill background | `status_bar_bg` |
+| `completion_menu_bg` | Completion menu background | `#1a1a2e` |
+| `completion_menu_current_bg` | Active completion row background | `#333355` |
+| `completion_menu_meta_bg` | Completion metadata background | `completion_menu_bg` |
+| `completion_menu_meta_current_bg` | Active completion metadata background | `completion_menu_current_bg` |
 | `session_label` | Session label color | `#DAA520` |
 | `session_border` | Session ID dim border color | `#8B8682` |
+
+The 2026.4.23 release added status bar and completion menu keys. Older 15-color
+skins still load because Hermes inherits missing values from `default`, but dark
+custom skins should define the completion/status keys to avoid default menu/status
+colors clashing with the theme.
 
 ## Spinner (4 keys)
 
