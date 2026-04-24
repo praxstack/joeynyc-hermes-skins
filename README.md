@@ -26,7 +26,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 ### Custom
 
 #### Pirate
-Black & white pirate flag theme with skull-and-crossbones braille art. Monochrome, nautical.
+Pirate captain theme — crimson and gold with Jolly Roger skull-and-crossbones braille art.
 
 → [pirate.yaml](skins/pirate.yaml)
 
@@ -173,7 +173,9 @@ Made a skin you're proud of? PRs welcome.
 1. Add your `.yaml` to `skins/`
 2. Include a brief description at the top
 3. Make sure it has a `name:` key matching the filename
-4. Update the table in this README
+4. Define all 28 color keys (see [SCHEMA.md](SCHEMA.md)) — dark skins that omit the `status_bar_*` and `completion_menu_*` keys will get mismatched colors from the default theme
+5. Run `python3 generate_screenshots.py` and include the screenshot
+6. Update the table in this README
 
 ## How Skins Work
 
