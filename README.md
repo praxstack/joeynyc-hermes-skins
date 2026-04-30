@@ -26,7 +26,7 @@ That's it. Missing values inherit from the default skin, so you only need to def
 ### Custom
 
 #### Pirate
-Pirate captain theme — crimson and gold with Jolly Roger skull-and-crossbones braille art.
+Black and white pirate flag theme with Jolly Roger skull-and-crossbones braille art.
 
 → [pirate.yaml](skins/pirate.yaml)
 

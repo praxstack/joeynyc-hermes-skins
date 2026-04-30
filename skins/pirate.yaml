@@ -1,111 +1,101 @@
-# Pirate Skin for Hermes CLI
-# Jolly Roger theme with crimson-to-gold gradients
-# "MY MAX" banner with skull-and-crossbones hero art
-
 name: pirate
-description: Pirate captain theme — crimson and gold with Jolly Roger art
+description: Black and white pirate flag theme
 
 colors:
-  banner_border: "#8B0000"       # dark blood red
-  banner_title: "#FFD700"        # gold
-  banner_accent: "#DAA520"       # goldenrod
-  banner_dim: "#5C3A21"          # dark wood brown
-  banner_text: "#DEB887"         # burlywood
-  ui_accent: "#FFD700"           # gold
-  ui_label: "#DAA520"            # goldenrod
-  ui_ok: "#228B22"               # forest green (seasickness green)
-  ui_error: "#DC143C"            # crimson
-  ui_warn: "#FF8C00"             # dark orange
-  prompt: "#DEB887"              # burlywood
-  input_rule: "#8B0000"          # dark blood red
-  response_border: "#FFD700"     # gold
-  status_bar_bg: "#4C0000"
-  status_bar_text: "#DEB887"
-  status_bar_strong: "#FFD700"
-  status_bar_dim: "#5C3A21"
-  status_bar_good: "#228B22"
-  status_bar_warn: "#FF8C00"
-  status_bar_bad: "#DAA520"
-  status_bar_critical: "#DC143C"
-  voice_status_bg: "#4C0000"
-  completion_menu_bg: "#410000"
-  completion_menu_current_bg: "#A73A0B"
-  completion_menu_meta_bg: "#460A06"
-  completion_menu_meta_current_bg: "#BD6108"
-  session_label: "#B8860B"       # dark goldenrod
-  session_border: "#5C3A21"      # dark wood
+  banner_border: "#888888"
+  banner_title: "#FFFFFF"
+  banner_accent: "#CCCCCC"
+  banner_dim: "#555555"
+  banner_text: "#DDDDDD"
+  ui_accent: "#FFFFFF"
+  ui_label: "#AAAAAA"
+  ui_ok: "#BBBBBB"
+  ui_error: "#FFFFFF"
+  ui_warn: "#999999"
+  prompt: "#EEEEEE"
+  input_rule: "#666666"
+  response_border: "#AAAAAA"
+  status_bar_bg: "#4B4B4B"
+  status_bar_text: "#DDDDDD"
+  status_bar_strong: "#FFFFFF"
+  status_bar_dim: "#555555"
+  status_bar_good: "#BBBBBB"
+  status_bar_warn: "#999999"
+  status_bar_bad: "#CCCCCC"
+  status_bar_critical: "#FFFFFF"
+  voice_status_bg: "#4B4B4B"
+  completion_menu_bg: "#404040"
+  completion_menu_current_bg: "#8A8A8A"
+  completion_menu_meta_bg: "#444444"
+  completion_menu_meta_current_bg: "#A7A7A7"
+  session_label: "#CCCCCC"
+  session_border: "#555555"
 
 spinner:
   waiting_faces:
     - "(☠)"
     - "(⚓)"
+    - "(⛵)"
     - "(⚔)"
+    - "(☠)"
   thinking_faces:
     - "(☠)"
-    - "(🧭)"
-    - "(🏴)"
+    - "(⚓)"
+    - "(⛵)"
+    - "(⌁)"
+    - "(⚔)"
   thinking_verbs:
-    - "charting course"
-    - "reading the stars"
-    - "consulting the map"
     - "hoisting the sails"
+    - "charting the course"
+    - "loading the cannons"
     - "scanning the horizon"
+    - "reading the map"
+    - "tying the rigging"
+    - "swabbing the deck"
+    - "raising the flag"
   wings:
-    - ["☠ ", " ☠"]
-    - ["⚓ ", " ⚓"]
-    - ["⚔ ", " ⚔"]
-    - ["☠ ", " ☠"]
+    - ["⟪☠", "☠⟫"]
+    - ["⟪⚓", "⚓⟫"]
+    - ["⟪⚔", "⚔⟫"]
+    - ["⟪⛵", "⛵⟫"]
 
 branding:
   agent_name: "Pirate Agent"
-  welcome: "[bold #8B0000]☠[/]  [bold #8C0300]S[/] [bold #900900]E[/] [bold #941100]T[/]   [bold #991A00]S[/] [bold #9F2500]A[/] [bold #A53100]I[/] [#AC3E00]L[/] [#B44C00],[/]  [#BB5A00]C[/] [#C46A00]A[/] [#CD7A00]P[/] [#D68B00]T[/] [#DF9D00]A[/] [#E9AF00]I[/] [#F4C300]N[/]  [#FFD700]☠[/]"
-  goodbye: "[bold #8B0000]☠[/]  [bold #8C0300]F[/] [bold #8F0800]A[/] [bold #930F00]I[/] [bold #981800]R[/]   [bold #9D2200]W[/] [bold #A32D00]I[/] [bold #A93800]N[/] [#B04500]D[/] [#B75200]S[/] [#BF6000],[/]  [#C76F00]S[/] [#CF7F00]A[/] [#D88F00]I[/] [#E1A000]L[/] [#EBB200]O[/] [#F4C400]R[/]  [#FFD700]☠[/]"
+  welcome: "Ahoy! Welcome aboard, Captain. Type yer message or /help for orders."
+  goodbye: "Fair winds and following seas! ☠"
   response_label: " ☠ Pirate "
   prompt_symbol: "☠ ❯ "
-  help_header: "(☠) Orders from the Captain"
+  help_header: "(☠) Captain's Orders"
 
-tool_prefix: "║"
+tool_prefix: "│"
 
 tool_emojis:
   terminal: "⚔"
   read_file: "📜"
-  write_file: "✍"
-  search_files: "🔍"
+  search_files: "🔭"
   web_search: "🧭"
-  memory: "🗺"
-  skill_view: "📖"
-  skill_manage: "⚓"
-  browser_navigate: "🚢"
-  browser_click: "🎯"
-  browser_snapshot: "👁"
-  execute_code: "⚒"
-  todo: "📋"
-  vision_analyze: "🔭"
-  text_to_speech: "📢"
+  write_file: "🪶"
 
 banner_logo: |
-  [bold #8B0000]███╗   ███╗    ██╗   ██╗        ███╗   ███╗     █████╗     ██╗  ██╗[/]
-  [bold #951300]████╗ ████║    ╚██╗ ██╔╝        ████╗ ████║    ██╔══██╗    ╚██╗██╔╝[/]
-  [bold #A83600]██╔████╔██║     ╚████╔╝         ██╔████╔██║    ███████║     ╚███╔╝ [/]
-  [bold #C06300]██║╚██╔╝██║      ╚██╔╝          ██║╚██╔╝██║    ██╔══██║     ██╔██╗ [/]
-  [bold #DE9900]██║ ╚═╝ ██║       ██║           ██║ ╚═╝ ██║    ██║  ██║    ██╔╝ ██╗[/]
-  [bold #FFD700]╚═╝     ╚═╝       ╚═╝           ╚═╝     ╚═╝    ╚═╝  ╚═╝    ╚═╝  ╚═╝[/]
+  [bold #FFFFFF]██████╗ ██╗██████╗  █████╗ ████████╗███████╗       █████╗  ██████╗ ███████╗███╗   ██╗████████╗[/]
+  [bold #DDDDDD]██╔══██╗██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝      ██╔══██╗██╔════╝ ██╔════╝████╗  ██║╚══██╔══╝[/]
+  [#BBBBBB]██████╔╝██║██████╔╝███████║   ██║   █████╗  █████╗███████║██║  ███╗█████╗  ██╔██╗ ██║   ██║[/]
+  [#999999]██╔═══╝ ██║██╔══██╗██╔══██║   ██║   ██╔══╝  ╚════╝██╔══██║██║   ██║██╔══╝  ██║╚██╗██║   ██║[/]
+  [#777777]██║     ██║██║  ██║██║  ██║   ██║   ███████╗      ██║  ██║╚██████╔╝███████╗██║ ╚████║   ██║[/]
+  [#555555]╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝      ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝[/]
 
 banner_hero: |
-  [#3D2B1F]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣤⣤⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#B8860B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#DAA520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#DAA520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⠟⠛⢿⣿⣿⣿⣿⣿⣿⡿⠛⠻⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#8B6914]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⠁⠀⠀⠀⢹⣿⣿⣿⣿⡏⠀⠀⠀⠈⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#B8860B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣧⣄⣀⣤⣿⣿⡿⢿⣿⣿⣤⣀⣠⣼⣿⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#DAA520]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⣿⣥⣬⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#8B6914]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣏⣹⣿⣏⣿⣿⣹⣿⣏⣹⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#3D2B1F]⠀⠀⢀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠻⠿⠿⠿⠿⠿⠿⠟⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⡀⠀⠀[/]
-  [#8B6914]⠀⣾⣿⣿⣿⣶⣤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣶⣿⣿⣿⣷⠀[/]
-  [#DAA520]⠀⠙⢿⣿⢿⣿⣿⣿⣿⣿⣿⣶⣶⣤⣤⣀⡀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⣶⣶⣿⣿⣿⣿⣿⣿⡿⣿⡿⠋⠀[/]
-  [#DAA520]⠀⠀⠀⠀⠀⠀⠉⠉⠛⠻⠿⠿⣿⣿⣿⣿⣿⣿⣷⣶⣶⣾⣿⣿⣿⣿⣿⣿⠿⠿⠟⠛⠉⠉⠀⠀⠀⠀⠀⠀[/]
-  [#B8860B]⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣴⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣤⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
-  [#DAA520]⠀⢀⣴⣶⣤⣴⣶⣿⣿⣿⣿⣿⣿⣿⠿⠟⠛⠋⠉⠁⠈⠉⠙⠛⠻⠿⣿⣿⣿⣿⣿⣿⣿⣶⣦⣤⣶⣦⡀⠀[/]
-  [#B8860B]⠀⣿⣿⣿⣿⣿⡿⠿⠟⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠻⠿⢿⣿⣿⣿⣿⣿⠀[/]
-  [#3D2B1F]⠀⠈⠛⠛⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠛⠛⠁⠀[/]
-  [#8B6914]⠀⠀⠀⠀⠀⠀⠀⠀⠀☠ ⚓ ⚔ PIRATE AGENT ⚔ ⚓ ☠⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#888888]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣴⣶⣾⣿⣿⣷⣦⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⢻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣏⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⠇[/]
+  [#AAAAAA]⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⠁⠀⣹⣿⡃⠀⢹⣟⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⡏⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣷⣄⠀⠀⠀⠀⠀⠀⠰⣾⣿⣦⣶⡟⢹⣷⣤⣾⣷⡅⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⣄⠀⠀⠀⠀⠀⠈⣉⡻⣿⣿⣿⣿⡿⢟⠉⠀⠀⠀⠀⠀⠀⣠⣾⣿⡿⠋⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⢿⣿⣿⣦⡀⠀⠀⠀⢺⣷⠺⠿⠿⠿⢹⣿⠀⠀⠀⠀⣀⣴⣿⣿⡿⠋⠁⠀⠀⠀⠀[/]
+  [#DDDDDD]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⡿⣷⣄⡀⠘⢿⣿⣿⣧⣷⣿⠏⠀⢀⣴⣾⣿⣿⡿⠋⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣽⠿⣷⣤⣉⠙⠙⣋⣥⣶⣾⣿⣿⡿⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣷⠀⠀⠀⠀⢉⣻⣿⣿⣿⣿⣶⣿⣽⣿⠿⠛⠁⠀⠀⠀⣴⣶⡄⠀⠀⠀⠀⠀⠀[/]
+  [#DDDDDD]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣶⣶⣤⣤⣤⡿⣷⣼⡾⣿⣿⣿⣽⣾⡿⠟⠿⢿⣿⣿⣿⣿⣶⣶⣆⣼⡿⣁⣀⣀⣀⣀⠀⠀⠀[/]
+  [#CCCCCC]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⢿⡽⠛⠛⠛⠸⣿⡙⠛⠋⠉⠁⠀⠀⠀⠀⠀⠈⠉⠙⠛⠛⠾⣿⡏⠾⠿⠿⣟⣿⣿⠂⠀⠀[/]
+  [#AAAAAA]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⠿⠿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⣶⣶⣾⠟⠁⠀⠀⠀⠉⠃⠀⠀⠀⠀[/]
+  [dim #555555]⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀no quarter given⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀[/]
