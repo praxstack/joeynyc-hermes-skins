@@ -123,6 +123,13 @@ Galactic Empire v2 — Death Star firing control terminal hero with angular box-
 
 ![empire](screenshots/empire.png)
 
+#### Catppuccin
+Catppuccin Mocha — soothing pastel theme with mauve, pink, peach, and lavender on a warm dark base. Peeking ASCII cat hero, paw-print accents, kawaii kaomoji spinners (`(=^･ω･^=)`), purring/kneading thinking verbs.
+
+→ [catppuccin.yaml](skins/catppuccin.yaml)
+
+![catppuccin](screenshots/catppuccin.png)
+
 ### Built-in (ship with Hermes)
 
 These are included for reference. They're already available in every Hermes install.
