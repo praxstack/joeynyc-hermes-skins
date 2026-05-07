@@ -30,11 +30,7 @@ banner_logo: "[bold #2A2A2A]███████╗███╗   ███╗�
   \ A L  N A V Y[/]\n"
 branding:
   agent_name: Imperial Agent
-  goodbye: '[bold #AAAAAA]T[/][bold #AAA9A9]R[/][bold #AAA8A8]A[/][bold #AAA7A7]N[/][bold #ABA6A6]S[/][bold #ACA4A4]M[/][bold
-    #ACA2A2]I[/][bold #ADA0A0]S[/][bold #AE9E9E]S[/][bold #AF9C9C]I[/][bold #AF9A9A]O[/][bold #B09898]N[/] [bold #B19595]T[/][bold
-    #B29393]E[/][bold #B39090]R[/][bold #B48D8D]M[/][bold #B58A8A]I[/][#B78787]N[/][#B88484]A[/][#B98181]T[/][#BA7E7E]E[/][#BB7A7A]D[/]
-    [#BD7777]:[/][#BE7373]:[/] [#BF7070]L[/][#C16C6C]O[/][#C26969]N[/][#C46565]G[/] [#C56161]L[/][#C75D5D]I[/][#C85959]V[/][#CA5555]E[/]
-    [#CB5151]T[/][#CD4D4D]H[/][#CE4848]E[/] [#D04444]E[/][#D24040]M[/][#D33B3B]P[/][#D53737]I[/][#D73232]R[/][#D92E2E]E[/]'
+  goodbye: "TRANSMISSION TERMINATED :: LONG LIVE THE EMPIRE"
   help_header: ⌖ IMPERIAL DIRECTIVE - Available Commands
   prompt_symbol: '◎ '
   response_label: ' ◉ IMPERIAL COMMAND '

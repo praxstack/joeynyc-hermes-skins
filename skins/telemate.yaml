@@ -67,7 +67,7 @@ spinner:
 branding:
   agent_name: "Telemate Agent"
   welcome: '[bold #FFFFFF]C[/][bold #FEFFFF]O[/][bold #FCFFFF]N[/][bold #FAFFFF]N[/][bold #F8FFFF]E[/][bold #F5FFFF]C[/][bold #F2FFFF]T[/] [bold #EEFFFF]5[/][bold #EBFFFF]7[/][bold #E7FFFF]6[/][bold #E3FFFF]0[/][bold #DFFFFF]0[/] [bold #DAFFFF]:[/][bold #D6FFFF]:[/] [bold #D1FFFF]H[/][bold #CCFFFF]E[/][bold #C7FFFF]R[/][bold #C1FFFF]M[/][#BCFFFF]E[/][#B6FFFF]S[/][#B0FFFF].[/][#AAFFFF]B[/][#A4FFFF]B[/][#9EFFFF]S[/] [#98FFFF]:[/][#91FFFF]:[/] [#8BFFFF]P[/][#84FFFF]R[/][#7DFFFF]E[/][#76FFFF]S[/][#6FFFFF]S[/] [#68FFFF]E[/][#60FFFF]S[/][#59FFFF]C[/] [#51FFFF]F[/][#4AFFFF]O[/][#42FFFF]R[/] [#3AFFFF]T[/][#32FFFF]E[/][#2AFFFF]R[/][#21FFFF]M[/][#19FFFF]I[/][#11FFFF]N[/][#08FFFF]A[/][#00FFFF]L[/]'
-  goodbye: '[bold #FFFFFF]N[/][bold #FDFFFF]O[/] [bold #FBFFFF]C[/][bold #F8FFFF]A[/][bold #F5FFFF]R[/][bold #F1FFFF]R[/][bold #ECFFFF]I[/][bold #E8FFFF]E[/][bold #E3FFFF]R[/] [bold #DDFFFF]:[/][bold #D8FFFF]:[/] [bold #D2FFFF]C[/][bold #CBFFFF]O[/][bold #C5FFFF]N[/][bold #BEFFFF]N[/][#B7FFFF]E[/][#B0FFFF]C[/][#A8FFFF]T[/][#A0FFFF]I[/][#99FFFF]O[/][#90FFFF]N[/] [#88FFFF]T[/][#7FFFFF]E[/][#77FFFF]R[/][#6EFFFF]M[/][#65FFFF]I[/][#5BFFFF]N[/][#52FFFF]A[/][#48FFFF]T[/][#3EFFFF]E[/][#34FFFF]D[/] [#2AFFFF]:[/][#20FFFF]:[/] [#15FFFF]7[/][#0AFFFF]3[/][#00FFFF]s[/]'
+  goodbye: "NO CARRIER :: CONNECTION TERMINATED :: 73s"
   response_label: " [TM] HERMES.BBS "
   prompt_symbol: "ATDT "
   help_header: "^L - Help Menu - Keyboard Shortcuts"
