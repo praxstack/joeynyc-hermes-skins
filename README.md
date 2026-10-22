@@ -4,6 +4,8 @@ Custom skins (visual themes) for the [Hermes](https://github.com/NousResearch/he
 
 Skins control the **visual presentation** of Hermes: banner colors, spinner faces/verbs, response-box labels, branding text, tool activity prefix, and ASCII art banners. They don't affect personality or behavior — just how things look.
 
+**Follow [@aijoey](https://x.com/aijoey) on X** for new skins and Hermes releases.
+
 ## Quick Start
 
 1. Browse the `skins/` directory and pick one you like
